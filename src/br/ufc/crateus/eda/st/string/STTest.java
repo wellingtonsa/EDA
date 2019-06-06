@@ -7,14 +7,14 @@ public class STTest {
 		StringST<String> sst = new StringST<>();
 		sst.extractTitle();
 		
-//		Item 1
-		System.out.println(sst.longestPreffixOf("A bela e a fera"));
-		
-	
+////		Item 1
+//		System.out.println(sst.longestPreffixOf("A bela e a fera"));
+//		
+//	
 //		Item 2
-//		for(String title : sst.titlesWithPreffix("As")) {
-//			System.out.println(title);
-//		}
+		for(String title : sst.titlesWithPreffix("As")) {
+			System.out.println(title);
+		}
 		
 	}
 }
